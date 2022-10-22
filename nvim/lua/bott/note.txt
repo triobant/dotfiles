@@ -1,0 +1,5 @@
+-- missing things
+
+* debugger dir
+* cmp-use-rust lua file
+* rtp
