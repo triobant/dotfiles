@@ -3,9 +3,9 @@
 vim.cmd [[packadd packer.nvim]]
 
     -- Packer can manage itself
-return require('packer').startup(function()
+return require('packer').startup(function(use)
     use("wbthomason/packer.nvim")
-    
+
     -- Simple plugind can be specified as strings
     use("TimUntersberger/neogit")
 
@@ -33,7 +33,7 @@ return require('packer').startup(function()
     use("saadparwaiz1/cmp_luasnip")
 
     -- Testing out jupyter ascending
-    
+
     -- Don't create lodash
     use("ThePrimeagen/git-worktree.nvim")
     use("ThePrimeagen/harpoon")
